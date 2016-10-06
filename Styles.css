@@ -1,41 +1,52 @@
 /* sidans bakgrund */
 body{
-	background-color: #012e40;
+	background-color: #012e40; */
+	width: 100%;
+	margin: auto;
 }
 
 /* HEADER */
-/* TODO: Vill få headern att gå hela vägen ut i sidorna. Detta går att lösa med att slå på position: absolute men då blir det porblem med de andra elementen. */
 .header {
-    height:100px;
+    height:100px;  
     background:#025e73;
     width:100%;
-	margin-top: 2%;
-	margin-left: 0;
-    right: 0;
-	/*position: absolute; */
+	top:0px;
+	position: fixed; 
+	
 }
 
-.container {
+.container{
+	width: 50%;
+    margin: 0 auto;
+}
+
+.content {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
 	background-color: white;
 	height: 1000px;
-	opacity: 0.5;
-    filter: alpha(opacity=50);
 }
-#first {
-    width: 100px;
-    float: left;
-    height: 100px;
-    background-color: blue;
-}
-#second {
-    width: 200px;
-    float: right;
-    height: 300px;
-    background-color: green;
-    color: white;
-}
+
 #clear {
     clear: both;
+}
+
+li{
+	list-style: none;
+    display: inline-block;
+	/* float: right;   */
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+h2{
+	color: #FFF; 
+	font-family: 'Open Sans', sans-serif; 
+	/* font-size: 30px;  */
+	/* font-weight: 300;  */
+	/* line-height: 32px;  */
+	/* margin: 0 0 72px;  */
+	/* text-align: center; */
 }
