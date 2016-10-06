@@ -1,86 +1,41 @@
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+/* sidans bakgrund */
+body{
+	background-color: #012e40;
 }
 
-  body {
-    background-color: powderblue;
-}
-h1 {
-    color: blue;
-}
-p {
-    color: red;
+/* HEADER */
+/* TODO: Vill få headern att gå hela vägen ut i sidorna. Detta går att lösa med att slå på position: absolute men då blir det porblem med de andra elementen. */
+.header {
+    height:100px;
+    background:#025e73;
+    width:100%;
+	margin-top: 2%;
+	margin-left: 0;
+    right: 0;
+	/*position: absolute; */
 }
 
-/* Type Selector. Den mest generella typen av Selector */
- div {
-	background-color: red;
-	width: 100px;
-	height: 100px;
-}
- 
-/* Class-selector. Den näst mest generella typen av Selector */
- .classSelector { 
-	color: magenta;
-	background-color: black;
- }
-
-/* ID-Selector. Den mest specifika typen av selector */
-   #idSelector {
-	background-color: yellow;
-} 
-
-  .social { 
-	color: orange;
+.container {
+    width: 80%;
+    margin: auto;
 	background-color: white;
- }
-
- .tooltip
- {
-	 color: grey;
-	 background-color: white;
- }
-
-
+	height: 1000px;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#first {
+    width: 100px;
+    float: left;
+    height: 100px;
+    background-color: blue;
+}
+#second {
+    width: 200px;
+    float: right;
+    height: 300px;
+    background-color: green;
+    color: white;
+}
+#clear {
+    clear: both;
+}
