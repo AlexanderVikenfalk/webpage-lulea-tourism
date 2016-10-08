@@ -1,52 +1,81 @@
 /* sidans bakgrund */
 body{
-	background-color: #012e40; */
+	background-color: #fff; 
 	width: 100%;
 	margin: auto;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
 .header {
     height:100px;  
-    background:#025e73;
+    background:#f00;
     width:100%;
 	top:0px;
 	position: fixed; 
-	
+	overflow: hidden;	
 }
 
-.container{
-	width: 50%;
+nav{
+	width: 80%;
     margin: 0 auto;
 }
 
 .content {
     width: 80%;
     margin: 0 auto;
-	background-color: white;
+	background-color: lightgrey;
 	height: 1000px;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	/* position: absolute;  */
 }
 
+.logo {
+	float: left;
+	width: 100px;
+	height: 50px;
+    background-color: #fff;
+}
 #clear {
     clear: both;
 }
 
+.textholder
+{
+    margin-bottom: 20px;
+    margin-right: 50%;
+    margin-left: 20px;
+    background-color: grey;
+    padding-top:1px;
+}
+
 li{
 	list-style: none;
-    display: inline-block;
-	/* float: right;   */
+    /*display: inline-block;*/
+    float: right;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 15px;
-	text-align: center;
+	/*margin-top: 15px; */
 }
 
 h2{
-	color: #FFF; 
-	font-family: 'Open Sans', sans-serif; 
-	/* font-size: 30px;  */
-	/* font-weight: 300;  */
-	/* line-height: 32px;  */
+	color: #000; 
+	font-size: 20px;  
+	/*font-weight: 300;  
+	line-height: 32px;  */
 	/* margin: 0 0 72px;  */
 	/* text-align: center; */
+}
+
+h3{
+	color: #000; 
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 40px;  
+}
+
+p{
+	margin-top: 0px;
+	margin-right: 0px;
 }
