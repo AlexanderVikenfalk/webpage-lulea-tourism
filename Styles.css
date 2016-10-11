@@ -69,6 +69,14 @@ nav{
 	height: 10%;
 }
 
+.pictureProperties
+{
+	/*position: relative;*/
+	height: 300px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
 li{
 	list-style: none;
     /*display: inline-block;*/
@@ -95,6 +103,13 @@ h3{
 	font-size: 20px;
 	margin-bottom: 0px;
 	margin-top: 39px;  
+}
+
+h4{
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100;
 }
 
 p{
