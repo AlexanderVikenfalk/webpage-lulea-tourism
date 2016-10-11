@@ -1,0 +1,155 @@
+*
+{
+    box-sizing: border-box;
+}
+
+/* utseende listor */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: right;
+}
+
+nav li{
+    display: inline-block;
+    padding-right: 100px;
+    padding-top: 10px;
+    align-content: stretch;
+    font-family: fantasy;
+    text-align-last: right;
+    
+    }
+li a{
+    color: aliceblue;
+}
+
+/* Div utseende */
+
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px;
+}
+#boxtext {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    /*text-align: left;*/
+    color: #e6e6e6;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+body{
+    background-image: url(img/norrsken_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    max-width: 100%;
+    
+    
+}
+#image{
+    background-image: url(img/001115_Gaute-Bruvik_www.nordnorge.com_Karlsoey.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#banner{
+    background-color: #118787;
+    text-align: left;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid;
+    border-color: black;
+    color: aliceblue;
+    box-sizing: border-box; /*make correct size of the box */
+    
+}
+#storbox{
+    
+    margin: auto;
+    padding-top: 10px;
+    max-width: 100%;
+    max-height: inherit;
+    background-color: lightgrey;
+    }
+
+#box1{
+    display: inline-block;
+    border-style: solid; 
+    border-color: black;
+    width: 33%;
+    height: 200px;
+    background-image: url(img/teknikenshus.jpg);
+    background-size: cover;
+    vertical-align: top;
+    text-align: left;
+    }
+#box2{
+    display: inline-block;
+    border-style: solid; 
+    border-color: black;
+    width: 33%;
+    height: 200px;
+    background-image: url(img/strand.jpg);
+    vertical-align: top;
+    background-size: cover;
+    text-align: left;
+    
+}
+#box3{
+    display: inline-block;
+    border-style: solid; 
+    border-color: black;
+    width: 33%;
+    height: 200px;
+    background-image: url(img/shopping.jpeg);
+    vertical-align: top;
+    background-size: cover;
+    text-align: left;
+    }
+
+#box4{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    float: right;
+    }
+
+
+#leftbox{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    float: left;
+    }
+
+#rightbox{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    background-color: aliceblue;
+    background-size: contain;
+    text-align: left;
+    float: right;
+    }
+.bakgrund {
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 20;
+        
+}
