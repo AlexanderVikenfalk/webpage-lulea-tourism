@@ -20,15 +20,6 @@ nav{
 	width: 80%;
     margin: 0 auto;
 }
-#anchor {
-    position: absolute; 
-    height: 150px; 
-    margin-top: -150px;
-}
-
-article{
-    overflow: hidden;
-}
 
 #logo {
 	float: left;
@@ -52,8 +43,15 @@ article{
 	margin-bottom: 30px;
 }
 
-#clear {
-    clear: both;
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+article{
+    overflow: hidden;
 }
 
 .textHolder
@@ -78,14 +76,12 @@ article{
 
 .topImage
 {
-	/*width: 100%;*/
 	width:100%;
 	height: 10%;
 }
 
 .pictureProperties
 {
-	/*position: relative;*/
 	height: 300px;
 	width: 100%;
 	margin-bottom: 10px;
@@ -93,12 +89,11 @@ article{
 
 li{
 	list-style: none;
-    /*display: inline-block;*/
     float: right;
 	margin-left: 20px;
 	margin-right: 20px;
-	/*margin-top: 15px; */
 }
+
 h1{
 	text-align: center;
 	letter-spacing: 1px;
@@ -121,12 +116,6 @@ h4{
 	font-size: 18px;
     font-weight: 600;
 }
-/*h4{
-	position: absolute;
-	top: 200px;
-	left: 0;
-	width: 100;
-}*/
 
 p{
 	margin-top: 0px;
