@@ -20,6 +20,11 @@ nav{
 	width: 80%;
     margin: 0 auto;
 }
+#anchor {
+    position: absolute; 
+    height: 150px; 
+    margin-top: -150px;
+}
 
 article{
     overflow: hidden;
@@ -57,7 +62,7 @@ article{
     margin-bottom: 2%;
     margin-left: 2.5%;
     margin-right: 2%;
-    padding-top:1px;
+    padding-top: 1px;
     float: left;
 }
 
@@ -103,15 +108,25 @@ h1{
 }
 h2{
 	color: #000; 
-	font-size: 20px;  
+	font-size: 20px;
+    
 }
-
+h3{
+    color: #000; 
+	font-size: 28px;
+    font-weight: bolder;
+}
 h4{
+    color: #000; 
+	font-size: 18px;
+    font-weight: 600;
+}
+/*h4{
 	position: absolute;
 	top: 200px;
 	left: 0;
 	width: 100;
-}
+}*/
 
 p{
 	margin-top: 0px;
