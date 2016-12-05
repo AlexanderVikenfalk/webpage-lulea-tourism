@@ -10,7 +10,7 @@ This project is made as the first project in the program: "HTML, CSS, Javascript
 * **HTML** for structure and content.
 * **CSS** for layout and design.
 
-[Link to Project](https://alexandervikenfalk.github.io/Final-JsCssHtml/)
+[Link to Project](https://alexandervikenfalk.github.io/first-project-lulea-tourism/)
 
 [LinkedIn](https://www.linkedin.com/in/alexander-wikenfalk-6b993b42)
 
